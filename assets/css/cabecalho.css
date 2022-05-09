@@ -1,0 +1,88 @@
+.cabecalho{
+    height: 460px; /*have to set it because of the absolute position of the banner*/
+}
+.cabecalho__nav{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2rem;
+    width: calc(100%-140px*2);
+    margin: 0 140px;
+}
+.cabecalho__nav-Searchbox{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    width:600px;
+}
+.searchbox__inputField{
+    width:300px;
+    padding: 8px 16px;
+    background: var(--cinzaclaro);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.searchbox__input{
+    background: var(--cinzaclaro);
+    color: var(--cinzaEscuro);
+    border: none;
+}
+.searchbox__button{
+    background: url(../img/searchIcon.png) no-repeat center ;
+    width: 24px;
+}
+
+
+
+
+
+.cabecalho__nav-btnLogin{
+    padding:1em;
+    box-sizing: border-box;
+    color:var(--azulGeral);
+    text-align: center;
+    border: solid 1px var(--azulGeral);
+    width: 10rem;
+}
+
+
+.cabecalho__banner{
+    color: #FFF;
+    width:100vw;
+    height:350px;
+    background: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding:1.3rem;
+    position: absolute;
+}
+.banner__informacoes{
+    position: relative;
+    height: 140px;
+    left: 90px;
+    top: 100px;
+    margin-top:3rem;
+    width:calc(100% - 300px);
+    height: calc(100% - 160px);
+}
+.banner__informacoes-titulo{
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin-bottom: 0.5em;
+}
+.banner__informacoes-texto{
+    font-weight: 400;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+
+}
+.banner__informacoes-botao{
+    background-color: var(--azulGeral);
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding:1rem 1.3rem;
+}

@@ -1,8 +1,0 @@
-:root{
-    --azulGeral:#2A7AE4;
-    --fontePadrao:'Raleway', sans-serif;
-}
-
-body{
-    font-family: var(--fontePadrao)
-}
